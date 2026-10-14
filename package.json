@@ -1,0 +1,15 @@
+{
+  "name": "autonoma-vectra-maglev-systems-62",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production edge website deployed via Autonoma Studio",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static production build ready'",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.109.0"
+  }
+}
